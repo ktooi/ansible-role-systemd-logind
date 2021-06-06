@@ -1,0 +1,70 @@
+[Login]
+{% if item.nauto_vts is defined %}
+NAutoVTs={{ item.nauto_vts }}
+{% endif %}
+{% if item.reserve_vt is defined %}
+ReserveVT={{ item.reserve_vt }}
+{% endif %}
+{% if item.kill_user_processes is defined %}
+KillUserProcesses={{ item.kill_user_processes }}
+{% endif %}
+{% if item.kill_only_users is defined %}
+KillOnlyUsers={{ item.kill_only_users }}
+{% endif %}
+{% if item.kill_exclude_users is defined %}
+KillExcludeUsers={{ item.kill_exclude_users }}
+{% endif %}
+{% if item.inhibit_delay_max_sec is defined %}
+InhibitDelayMaxSec={{ item.inhibit_delay_max_sec }}
+{% endif %}
+{% if item.handle_power_key is defined %}
+HandlePowerKey={{ item.handle_power_key }}
+{% endif %}
+{% if item.handle_suspend_key is defined %}
+HandleSuspendKey={{ item.handle_suspend_key }}
+{% endif %}
+{% if item.handle_hibernate_key is defined %}
+HandleHibernateKey={{ item.handle_hibernate_key }}
+{% endif %}
+{% if item.handle_lid_switch is defined %}
+HandleLidSwitch={{ item.handle_lid_switch }}
+{% endif %}
+{% if item.handle_lid_switch_external_power is defined %}
+HandleLidSwitchExternalPower={{ item.handle_lid_switch_external_power }}
+{% endif %}
+{% if item.handle_lid_switch_docked is defined %}
+HandleLidSwitchDocked={{ item.handle_lid_switch_docked }}
+{% endif %}
+{% if item.power_key_ignore_inhibited is defined %}
+PowerKeyIgnoreInhibited={{ item.power_key_ignore_inhibited }}
+{% endif %}
+{% if item.suspend_key_ignore_inhibited is defined %}
+SuspendKeyIgnoreInhibited={{ item.suspend_key_ignore_inhibited }}
+{% endif %}
+{% if item.hibernate_key_ignore_inhibited is defined %}
+HibernateKeyIgnoreInhibited={{ item.hibernate_key_ignore_inhibited }}
+{% endif %}
+{% if item.lid_switch_ignore_inhibited is defined %}
+LidSwitchIgnoreInhibited={{ item.lid_switch_ignore_inhibited }}
+{% endif %}
+{% if item.holdoff_timeout_sec is defined %}
+HoldoffTimeoutSec={{ item.holdoff_timeout_sec }}
+{% endif %}
+{% if item.idle_action is defined %}
+IdleAction={{ item.idle_action }}
+{% endif %}
+{% if item.idle_action_sec is defined %}
+IdleActionSec={{ item.idle_action_sec }}
+{% endif %}
+{% if item.runtime_directory_size is defined %}
+RuntimeDirectorySize={{ item.runtime_directory_size }}
+{% endif %}
+{% if item.remove_ipc is defined %}
+RemoveIPC={{ item.remove_ipc }}
+{% endif %}
+{% if item.inhibitors_max is defined %}
+InhibitorsMax={{ item.inhibitors_max }}
+{% endif %}
+{% if item.sessions_max is defined %}
+SessionsMax={{ item.sessions_max }}
+{% endif %}
