@@ -9,11 +9,4 @@
     mode: 0644
   vars:
     item: "{{ logind }}"
-  register: logind_conf
-
-- name: Restart the systemd-logind
-  become: yes
-  systemd:
-    name: systemd-logind
-    state: restarted
-  when: logind_conf.changed
+  notify: restart systemd-logind
