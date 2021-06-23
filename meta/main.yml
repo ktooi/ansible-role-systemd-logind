@@ -2,7 +2,7 @@
 dependencies: []
 
 galaxy_info:
-  role_name: systemd-logind
+  role_name: systemd_logind
   author: ktooi
   description: Configure systemd-logind for RHEL/CentOS and Debian/Ubuntu.
   license: "license (MIT)"
