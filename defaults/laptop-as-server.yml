@@ -1,0 +1,4 @@
+---
+logind:
+  # Configure the laptop as server that do not hibernate even if the LID was closed.
+  handle_lid_switch: "ignore"
